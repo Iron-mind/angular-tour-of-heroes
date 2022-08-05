@@ -8,7 +8,7 @@ import { HeroesComponent } from './heroes/heroes.component';
 
 //creo la ruta que voy a usar
 const routes: Routes = [
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: '', redirectTo: '/heroes', pathMatch: 'full' },
   { path: 'heroes', component: HeroesComponent },
   {path:'dashboard', component:DashboardComponent},
   { path: 'detail/:id', component: HeroDetailComponent },
